@@ -93,6 +93,7 @@
 		008076001D3471C500D6DEC5 /* south.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = south.png; sourceTree = "<group>"; };
 		008076011D3471C500D6DEC5 /* vdub.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = vdub.png; sourceTree = "<group>"; };
 		008076201D34780700D6DEC5 /* AppStatus.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppStatus.swift; sourceTree = "<group>"; };
+		00B7CB6D1D385C9C00779792 /* Credit-Me.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = "Credit-Me.entitlements"; sourceTree = "<group>"; };
 		60849E8A5FB40E109AC753A8 /* libPods-Credit-Me.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Credit-Me.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6397378CD7F36FC37AB79E90 /* Pods-Credit-Me.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Credit-Me.release.xcconfig"; path = "Pods/Target Support Files/Pods-Credit-Me/Pods-Credit-Me.release.xcconfig"; sourceTree = "<group>"; };
 		7F9481984AD432A0AA224028 /* Pods-Credit-Me.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Credit-Me.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Credit-Me/Pods-Credit-Me.debug.xcconfig"; sourceTree = "<group>"; };
@@ -132,6 +133,7 @@
 		008075C81D346C2B00D6DEC5 /* Credit-Me */ = {
 			isa = PBXGroup;
 			children = (
+				00B7CB6D1D385C9C00779792 /* Credit-Me.entitlements */,
 				008075E41D34716F00D6DEC5 /* Media */,
 				008075E11D3470F800D6DEC5 /* AppGlobal */,
 				008075C91D346C2B00D6DEC5 /* AppDelegate.swift */,
@@ -247,6 +249,11 @@
 						DevelopmentTeam = 2B844QKHM6;
 						DevelopmentTeamName = "Han Yu";
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Keychain = {
+								enabled = 1;
+							};
+						};
 					};
 				};
 			};
@@ -490,6 +497,7 @@
 			baseConfigurationReference = 7F9481984AD432A0AA224028 /* Pods-Credit-Me.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "Credit-Me/Credit-Me.entitlements";
 				INFOPLIST_FILE = "Credit-Me/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -505,6 +513,7 @@
 			baseConfigurationReference = 6397378CD7F36FC37AB79E90 /* Pods-Credit-Me.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "Credit-Me/Credit-Me.entitlements";
 				INFOPLIST_FILE = "Credit-Me/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
