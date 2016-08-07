@@ -30,7 +30,8 @@ class LoginViewController: UIViewController {
     
     override func viewDidAppear(_ animated: Bool) {
         FIRAuth.auth()?.addStateDidChangeListener({ (auth, user) in
-            if let _ = user {
+            if let user = user {
+                AppStatus.user = AppUser(instance: user)
                 print("already logged in")
                 self.performSegue(withIdentifier: SegueID.LOGINtoMAIN, sender: nil)
             }
@@ -46,7 +47,6 @@ class LoginViewController: UIViewController {
         FIRAuth.auth()?.signIn(withEmail: email, password: password, completion: { (user, error) in
             if let _ = user {
                 print("sing in success")
-                self.performSegue(withIdentifier: SegueID.LOGINtoMAIN, sender: nil)
             }
             else {
                 print("email or password incorrect")
@@ -70,12 +70,14 @@ class LoginViewController: UIViewController {
             FIRAuth.auth()?.createUser(withEmail: emailField.text!, password: passwordField.text!, completion: { (user, error) in
                 if error == nil {
                     print("create user successful")
+                    let newUser = AppUser(instance: user!)
+                    newUser.saveToFir()
                     FIRAuth.auth()?.signIn(withEmail: emailField.text!, password: passwordField.text!, completion: { (user, error) in
                     })
                 }
                 if let error = error {
                     print("create user error: ", error)
-                    print(error.userInfo[NSLocalizedFailureReasonErrorKey])
+                    AppFunc.showAlert(controller: self, title: "Error", message: "Make sure you:\n1. have internet connection\n2. email is valid\n3. password is more than 6 characters long")
                     print(error.userInfo[NSUnderlyingErrorKey])
                 }
             })
