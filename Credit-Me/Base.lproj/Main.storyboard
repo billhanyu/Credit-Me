@@ -136,7 +136,7 @@
                                         <rect key="frame" x="0.0" y="99" width="375" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="6tc-FJ-w8p" id="cE5-1t-gHn">
-                                            <frame key="frameInset" width="375" height="43"/>
+                                            <frame key="frameInset" width="375" height="43.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Name" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yB3-La-Ufv">
@@ -162,7 +162,7 @@
                                         <rect key="frame" x="0.0" y="143" width="375" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="bsC-Zc-wbw" id="kgn-K3-PCa">
-                                            <frame key="frameInset" width="375" height="43"/>
+                                            <frame key="frameInset" width="375" height="43.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Phone" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="r2J-Zs-ahg">
@@ -192,7 +192,7 @@
                                         <rect key="frame" x="0.0" y="223" width="375" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="d5g-y3-t7V" id="sl8-Y4-2YD">
-                                            <frame key="frameInset" width="375" height="43"/>
+                                            <frame key="frameInset" width="375" height="43.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Log Out" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tON-Ou-KgN">
@@ -247,11 +247,11 @@
             </objects>
             <point key="canvasLocation" x="915" y="-1279"/>
         </scene>
-        <!--First-->
+        <!--Market-->
         <scene sceneID="CZR-GU-Bai">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="I2M-Xk-jIP" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="First" id="acW-dT-cKf"/>
+                    <tabBarItem key="tabBarItem" title="Market" image="market.png" id="acW-dT-cKf"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="lL7-bG-kkj">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
@@ -340,11 +340,11 @@
             </objects>
             <point key="canvasLocation" x="9" y="-1280"/>
         </scene>
-        <!--Second-->
+        <!--Buy-->
         <scene sceneID="3Qm-KI-zoI">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="7YN-vC-4nT" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Second" image="second" id="cPa-gy-q4n"/>
+                    <tabBarItem key="tabBarItem" title="Buy" image="buy.png" id="cPa-gy-q4n"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="BgV-zy-j7Q">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
@@ -359,11 +359,11 @@
             </objects>
             <point key="canvasLocation" x="9" y="-522"/>
         </scene>
-        <!--Item-->
+        <!--Sell-->
         <scene sceneID="l4n-Il-Loa">
             <objects>
                 <navigationController id="Pz0-NC-bOE" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Item" id="gHi-zG-reW"/>
+                    <tabBarItem key="tabBarItem" title="Sell" image="sell.png" id="gHi-zG-reW"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="OIp-hL-Cpl">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -376,11 +376,11 @@
             </objects>
             <point key="canvasLocation" x="914" y="-522"/>
         </scene>
-        <!--Item-->
+        <!--Orders-->
         <scene sceneID="oah-EV-KyD">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="nfi-ii-xxu" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Item" id="d5f-3y-odz"/>
+                    <tabBarItem key="tabBarItem" title="Orders" image="orders.png" id="d5f-3y-odz"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="zgd-0I-md3">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
@@ -395,11 +395,11 @@
             </objects>
             <point key="canvasLocation" x="1860" y="-522"/>
         </scene>
-        <!--Item-->
+        <!--Me-->
         <scene sceneID="Ezq-eO-VHs">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="Ilj-0h-4zM" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Item" id="oaV-f8-ecy"/>
+                    <tabBarItem key="tabBarItem" title="Me" image="me.png" id="oaV-f8-ecy"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="rCh-9O-nzZ">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
@@ -416,6 +416,10 @@
         </scene>
     </scenes>
     <resources>
-        <image name="second" width="30" height="30"/>
+        <image name="buy.png" width="30" height="30"/>
+        <image name="market.png" width="30" height="30"/>
+        <image name="me.png" width="30" height="30"/>
+        <image name="orders.png" width="30" height="30"/>
+        <image name="sell.png" width="30" height="30"/>
     </resources>
 </document>
