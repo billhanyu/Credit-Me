@@ -8,6 +8,15 @@
 
 /* Begin PBXBuildFile section */
 		0026E1AE1D347D5500FC74F4 /* MeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0026E1AD1D347D5500FC74F4 /* MeViewController.swift */; };
+		002B5A3F1D571F79001CE5E5 /* Deal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 002B5A3E1D571F79001CE5E5 /* Deal.swift */; };
+		002B5A411D571FFF001CE5E5 /* Offer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 002B5A401D571FFF001CE5E5 /* Offer.swift */; };
+		002B5A431D57200C001CE5E5 /* Order.swift in Sources */ = {isa = PBXBuildFile; fileRef = 002B5A421D57200C001CE5E5 /* Order.swift */; };
+		002B5A471D5720AB001CE5E5 /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = 002B5A461D5720AB001CE5E5 /* Location.swift */; };
+		002B5A491D57216E001CE5E5 /* Food.swift in Sources */ = {isa = PBXBuildFile; fileRef = 002B5A481D57216E001CE5E5 /* Food.swift */; };
+		002B5A4B1D5721F5001CE5E5 /* Eatery.swift in Sources */ = {isa = PBXBuildFile; fileRef = 002B5A4A1D5721F5001CE5E5 /* Eatery.swift */; };
+		002B5A4D1D57235D001CE5E5 /* DealObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 002B5A4C1D57235D001CE5E5 /* DealObject.swift */; };
+		002B5A4F1D57240A001CE5E5 /* HalfDeal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 002B5A4E1D57240A001CE5E5 /* HalfDeal.swift */; };
+		002B5A511D57250A001CE5E5 /* HalfDealObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 002B5A501D57250A001CE5E5 /* HalfDealObject.swift */; };
 		008075CA1D346C2B00D6DEC5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 008075C91D346C2B00D6DEC5 /* AppDelegate.swift */; };
 		008075CC1D346C2B00D6DEC5 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 008075CB1D346C2B00D6DEC5 /* FirstViewController.swift */; };
 		008075CE1D346C2B00D6DEC5 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 008075CD1D346C2B00D6DEC5 /* SecondViewController.swift */; };
@@ -54,6 +63,15 @@
 
 /* Begin PBXFileReference section */
 		0026E1AD1D347D5500FC74F4 /* MeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MeViewController.swift; sourceTree = "<group>"; };
+		002B5A3E1D571F79001CE5E5 /* Deal.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Deal.swift; sourceTree = "<group>"; };
+		002B5A401D571FFF001CE5E5 /* Offer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Offer.swift; sourceTree = "<group>"; };
+		002B5A421D57200C001CE5E5 /* Order.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Order.swift; sourceTree = "<group>"; };
+		002B5A461D5720AB001CE5E5 /* Location.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Location.swift; sourceTree = "<group>"; };
+		002B5A481D57216E001CE5E5 /* Food.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Food.swift; sourceTree = "<group>"; };
+		002B5A4A1D5721F5001CE5E5 /* Eatery.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Eatery.swift; sourceTree = "<group>"; };
+		002B5A4C1D57235D001CE5E5 /* DealObject.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DealObject.swift; sourceTree = "<group>"; };
+		002B5A4E1D57240A001CE5E5 /* HalfDeal.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HalfDeal.swift; sourceTree = "<group>"; };
+		002B5A501D57250A001CE5E5 /* HalfDealObject.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HalfDealObject.swift; sourceTree = "<group>"; };
 		008075C61D346C2B00D6DEC5 /* Credit-Me.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Credit-Me.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		008075C91D346C2B00D6DEC5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		008075CB1D346C2B00D6DEC5 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
@@ -115,6 +133,29 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		002B5A441D572086001CE5E5 /* deal */ = {
+			isa = PBXGroup;
+			children = (
+				002B5A3E1D571F79001CE5E5 /* Deal.swift */,
+				002B5A4C1D57235D001CE5E5 /* DealObject.swift */,
+				002B5A4E1D57240A001CE5E5 /* HalfDeal.swift */,
+				002B5A501D57250A001CE5E5 /* HalfDealObject.swift */,
+				002B5A401D571FFF001CE5E5 /* Offer.swift */,
+				002B5A421D57200C001CE5E5 /* Order.swift */,
+			);
+			name = deal;
+			sourceTree = "<group>";
+		};
+		002B5A451D572097001CE5E5 /* locationfood */ = {
+			isa = PBXGroup;
+			children = (
+				002B5A461D5720AB001CE5E5 /* Location.swift */,
+				002B5A481D57216E001CE5E5 /* Food.swift */,
+				002B5A4A1D5721F5001CE5E5 /* Eatery.swift */,
+			);
+			name = locationfood;
+			sourceTree = "<group>";
+		};
 		008075BD1D346C2B00D6DEC5 = {
 			isa = PBXGroup;
 			children = (
@@ -203,7 +244,9 @@
 		00F9BB691D56126400063A9F /* model */ = {
 			isa = PBXGroup;
 			children = (
+				002B5A451D572097001CE5E5 /* locationfood */,
 				00F9BB671D56020D00063A9F /* AppUser.swift */,
+				002B5A441D572086001CE5E5 /* deal */,
 			);
 			name = model;
 			sourceTree = "<group>";
@@ -388,10 +431,19 @@
 				008075E01D34704A00D6DEC5 /* LoginViewController.swift in Sources */,
 				0026E1AE1D347D5500FC74F4 /* MeViewController.swift in Sources */,
 				008075CE1D346C2B00D6DEC5 /* SecondViewController.swift in Sources */,
+				002B5A4B1D5721F5001CE5E5 /* Eatery.swift in Sources */,
 				008075CA1D346C2B00D6DEC5 /* AppDelegate.swift in Sources */,
 				00F9BB681D56020D00063A9F /* AppUser.swift in Sources */,
+				002B5A4F1D57240A001CE5E5 /* HalfDeal.swift in Sources */,
 				008076211D34780700D6DEC5 /* AppStatus.swift in Sources */,
+				002B5A471D5720AB001CE5E5 /* Location.swift in Sources */,
+				002B5A4D1D57235D001CE5E5 /* DealObject.swift in Sources */,
+				002B5A491D57216E001CE5E5 /* Food.swift in Sources */,
+				002B5A431D57200C001CE5E5 /* Order.swift in Sources */,
 				00F9BB6B1D5614E800063A9F /* AppFunc.swift in Sources */,
+				002B5A511D57250A001CE5E5 /* HalfDealObject.swift in Sources */,
+				002B5A411D571FFF001CE5E5 /* Offer.swift in Sources */,
+				002B5A3F1D571F79001CE5E5 /* Deal.swift in Sources */,
 				008075CC1D346C2B00D6DEC5 /* FirstViewController.swift in Sources */,
 				008075E31D34710C00D6DEC5 /* AppConstants.swift in Sources */,
 			);
