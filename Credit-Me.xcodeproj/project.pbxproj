@@ -23,7 +23,7 @@
 		002B5A5A1D572D2C001CE5E5 /* sell@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 002B5A551D572D2C001CE5E5 /* sell@2x.png */; };
 		002B5A5B1D572D2C001CE5E5 /* buy@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 002B5A561D572D2C001CE5E5 /* buy@2x.png */; };
 		008075CA1D346C2B00D6DEC5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 008075C91D346C2B00D6DEC5 /* AppDelegate.swift */; };
-		008075CC1D346C2B00D6DEC5 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 008075CB1D346C2B00D6DEC5 /* FirstViewController.swift */; };
+		008075CC1D346C2B00D6DEC5 /* MarketViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 008075CB1D346C2B00D6DEC5 /* MarketViewController.swift */; };
 		008075CE1D346C2B00D6DEC5 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 008075CD1D346C2B00D6DEC5 /* SecondViewController.swift */; };
 		008075D11D346C2B00D6DEC5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 008075CF1D346C2B00D6DEC5 /* Main.storyboard */; };
 		008075D31D346C2B00D6DEC5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 008075D21D346C2B00D6DEC5 /* Assets.xcassets */; };
@@ -79,7 +79,7 @@
 		002B5A561D572D2C001CE5E5 /* buy@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "buy@2x.png"; sourceTree = "<group>"; };
 		008075C61D346C2B00D6DEC5 /* Credit-Me.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Credit-Me.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		008075C91D346C2B00D6DEC5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		008075CB1D346C2B00D6DEC5 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
+		008075CB1D346C2B00D6DEC5 /* MarketViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarketViewController.swift; sourceTree = "<group>"; };
 		008075CD1D346C2B00D6DEC5 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 		008075D01D346C2B00D6DEC5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		008075D21D346C2B00D6DEC5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -183,7 +183,7 @@
 				008075E41D34716F00D6DEC5 /* Media */,
 				008075E11D3470F800D6DEC5 /* AppGlobal */,
 				008075C91D346C2B00D6DEC5 /* AppDelegate.swift */,
-				008075CB1D346C2B00D6DEC5 /* FirstViewController.swift */,
+				008075CB1D346C2B00D6DEC5 /* MarketViewController.swift */,
 				008075CD1D346C2B00D6DEC5 /* SecondViewController.swift */,
 				008075CF1D346C2B00D6DEC5 /* Main.storyboard */,
 				0026E1AD1D347D5500FC74F4 /* MeViewController.swift */,
@@ -309,6 +309,9 @@
 						SystemCapabilities = {
 							com.apple.Keychain = {
 								enabled = 1;
+							};
+							com.apple.Push = {
+								enabled = 0;
 							};
 						};
 					};
@@ -444,7 +447,7 @@
 				002B5A511D57250A001CE5E5 /* HalfDealObject.swift in Sources */,
 				002B5A411D571FFF001CE5E5 /* Offer.swift in Sources */,
 				002B5A3F1D571F79001CE5E5 /* Deal.swift in Sources */,
-				008075CC1D346C2B00D6DEC5 /* FirstViewController.swift in Sources */,
+				008075CC1D346C2B00D6DEC5 /* MarketViewController.swift in Sources */,
 				008075E31D34710C00D6DEC5 /* AppConstants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

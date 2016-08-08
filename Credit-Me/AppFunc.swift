@@ -9,6 +9,10 @@
 import Foundation
 import UIKit
 
+func /(lhs: CGFloat, rhs: Int) -> CGFloat {
+    return lhs / CGFloat(rhs)
+}
+
 class AppFunc {
     static func showAlert(controller: UIViewController, title: String = "alert", message: String?) {
         let alertController = UIAlertController(title: title, message: message, preferredStyle: .alert)

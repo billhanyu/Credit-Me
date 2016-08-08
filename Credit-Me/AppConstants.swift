@@ -7,6 +7,7 @@
 //
 
 import Foundation
+import UIKit
 
 struct StoryboardID {
     static let LOGINVC = "LoginViewController"
