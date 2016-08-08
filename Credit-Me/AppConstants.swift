@@ -15,4 +15,10 @@ struct StoryboardID {
 
 struct SegueID {
     static let LOGINtoMAIN = "LoginToMain"
+    static let PICK_EATERY = "PickEaterySegue"
+}
+
+enum MeetType {
+    case meet
+    case deliver
 }
