@@ -9,7 +9,7 @@
 import Foundation
 
 // /deals/
-class Deal {
+class Deal: OnlineObject {
     var buyerRating = -1
     var sellerRating = -1
     var complete = false
@@ -19,4 +19,8 @@ class Deal {
     var order: Order?
     var price = 0.0
     var time = ""
+    
+    func saveToFir() -> Bool {
+        return true
+    }
 }

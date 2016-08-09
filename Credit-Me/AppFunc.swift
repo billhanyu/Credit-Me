@@ -21,3 +21,13 @@ class AppFunc {
         controller.present(alertController, animated: true, completion: nil)
     }
 }
+
+extension String {
+    func toDouble() -> Double? {
+        return NumberFormatter().number(from: self)?.doubleValue
+    }
+    
+    func toInt() -> Int? {
+        return NumberFormatter().number(from: self)?.intValue
+    }
+}

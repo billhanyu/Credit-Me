@@ -11,7 +11,7 @@ import Firebase
 import FirebaseDatabase
 import FirebaseAuth
 
-class AppUser {
+class AppUser: OnlineObject {
     
     var isBrownUser: Bool = false
     var name = ""
@@ -36,7 +36,8 @@ class AppUser {
         }
     }
     
-    func saveToFir() {
+    // does NOT currently return the success status of saving but the error will be printed
+    func saveToFir() -> Bool {
         //database
         let ref = FIRDatabase.database().reference()
         let users = ref.child("users")
@@ -56,6 +57,11 @@ class AppUser {
         //auth
         let changeRequest = firInstance.profileChangeRequest()
         changeRequest.displayName = name
-        changeRequest.commitChanges(completion: nil)
+        changeRequest.commitChanges { (error) in
+            if let error = error {
+                print("Error changing profile: ", error.localizedDescription)
+            }
+        }
+        return true
     }
 }

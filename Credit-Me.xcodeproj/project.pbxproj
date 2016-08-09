@@ -56,6 +56,7 @@
 		0080761D1D3471C500D6DEC5 /* south.png in Resources */ = {isa = PBXBuildFile; fileRef = 008076001D3471C500D6DEC5 /* south.png */; };
 		0080761E1D3471C500D6DEC5 /* vdub.png in Resources */ = {isa = PBXBuildFile; fileRef = 008076011D3471C500D6DEC5 /* vdub.png */; };
 		008076211D34780700D6DEC5 /* AppStatus.swift in Sources */ = {isa = PBXBuildFile; fileRef = 008076201D34780700D6DEC5 /* AppStatus.swift */; };
+		00F945AA1D59C12F00D97A20 /* AppProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00F945A91D59C12F00D97A20 /* AppProtocol.swift */; };
 		00F9BB681D56020D00063A9F /* AppUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00F9BB671D56020D00063A9F /* AppUser.swift */; };
 		00F9BB6B1D5614E800063A9F /* AppFunc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00F9BB6A1D5614E800063A9F /* AppFunc.swift */; };
 		9FAC2BC3563E391A4B46E8FB /* libPods-Credit-Me.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 60849E8A5FB40E109AC753A8 /* libPods-Credit-Me.a */; };
@@ -114,6 +115,7 @@
 		008076011D3471C500D6DEC5 /* vdub.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = vdub.png; sourceTree = "<group>"; };
 		008076201D34780700D6DEC5 /* AppStatus.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppStatus.swift; sourceTree = "<group>"; };
 		00B7CB6D1D385C9C00779792 /* Credit-Me.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = "Credit-Me.entitlements"; sourceTree = "<group>"; };
+		00F945A91D59C12F00D97A20 /* AppProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppProtocol.swift; sourceTree = "<group>"; };
 		00F9BB671D56020D00063A9F /* AppUser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppUser.swift; sourceTree = "<group>"; };
 		00F9BB6A1D5614E800063A9F /* AppFunc.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppFunc.swift; sourceTree = "<group>"; };
 		60849E8A5FB40E109AC753A8 /* libPods-Credit-Me.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Credit-Me.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -198,6 +200,7 @@
 		008075E11D3470F800D6DEC5 /* AppGlobal */ = {
 			isa = PBXGroup;
 			children = (
+				00F945A91D59C12F00D97A20 /* AppProtocol.swift */,
 				008075E21D34710C00D6DEC5 /* AppConstants.swift */,
 				008076201D34780700D6DEC5 /* AppStatus.swift */,
 				00F9BB6A1D5614E800063A9F /* AppFunc.swift */,
@@ -432,6 +435,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				008075E01D34704A00D6DEC5 /* LoginViewController.swift in Sources */,
+				00F945AA1D59C12F00D97A20 /* AppProtocol.swift in Sources */,
 				0026E1AE1D347D5500FC74F4 /* MeViewController.swift in Sources */,
 				008075CE1D346C2B00D6DEC5 /* BuyViewController.swift in Sources */,
 				002B5A4B1D5721F5001CE5E5 /* Eatery.swift in Sources */,
